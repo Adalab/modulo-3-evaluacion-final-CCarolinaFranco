@@ -1,4 +1,4 @@
-function CharacterNameInput (searchName, hadleLifting ){
+function CharacterNameInput ({searchName, hadleLifting} ){
 
     return(
         <label className="" htmlFor="search_name">
