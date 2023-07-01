@@ -1,0 +1,16 @@
+.character-list {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  list-style-type: none; 
+}
+  .character-list-item {
+    width: 250px; 
+    padding: 10px; 
+    background-color: #c5c3c3; 
+    border: 2px solid #444; 
+    font-family: "Comic Sans MS", cursive; 
+  }
+  .character-list-item img {
+    width: 100%; 
+  }
