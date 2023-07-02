@@ -80,8 +80,7 @@ const {pathname}= useLocation();
 const routeData = matchPath('/card/:cardId', pathname);
 //console.log(routeData);
 const cardId = routeData !== null ? routeData.params.cardId : '';
-//const cardId = routeData?.params.cardId
-const cardData = charactersListado.find((card)=>card.id === cardId);
+const cardData = charactersListado.find((card)=>card.id === parseInt(cardId));
 //console.log(cardData)
 //console.log(cardId)
 

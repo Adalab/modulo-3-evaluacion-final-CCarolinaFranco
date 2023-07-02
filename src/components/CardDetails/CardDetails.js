@@ -1,7 +1,11 @@
+
 import { Link } from "react-router-dom";
 
 function CardDetails({ cardData }) {
-
+    
+  
+  
+    if (cardData){
     return (
         <>
             <section>
@@ -12,8 +16,15 @@ function CardDetails({ cardData }) {
             </section>
             <img src={cardData.image} alt={'imagen del personaje'} />
         </>
-    )
+    );}
+    else{
+        return(
+
+            <di>
+                <p>Ese personaje no existe</p>
+                <Link to='/'>Volver</Link>
+            </di>
+        )
+    }
 }
 export default CardDetails;
-
-
