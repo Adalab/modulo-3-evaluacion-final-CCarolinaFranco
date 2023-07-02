@@ -7,9 +7,9 @@ function CharacterNameInput ({searchName, hadleLifting} ){
           type="text" name=""
           id="search_name"
           value={searchName}
-          onInput={(env)=>hadleLifting('name' ,env.target.value)} />
+          onInput={(env)=>hadleLifting('name' , env.target.value)} />
       </label>
 
     )
 }
-export default CharacterNameInput
+export default CharacterNameInput;
