@@ -27,6 +27,7 @@ function CardDetails({ cardData }) {
                     <Link to='/' className="back">Volver</Link>
                 </di>
             </section>
+            
         )
     }
 }
