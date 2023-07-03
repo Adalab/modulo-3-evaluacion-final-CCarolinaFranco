@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import "./cardDetails.css";
+import "./cardDetails.scss";
 
 function CardDetails({ cardData }) {
 

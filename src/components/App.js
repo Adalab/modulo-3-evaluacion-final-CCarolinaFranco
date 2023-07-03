@@ -1,5 +1,5 @@
 
-import '../styles/App.css';
+import '../styles/App.scss';
 import { useEffect, useState } from "react";
 import fetchDataApi from "./services/Api";
 import CharacterList from "./CharactersList/CharacterList";

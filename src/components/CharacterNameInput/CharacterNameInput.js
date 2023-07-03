@@ -1,4 +1,4 @@
-import "./characterNameInput.css"
+import "./characterNameInput.scss"
 
 
 function CharacterNameInput ({searchName, hadleLifting} ){

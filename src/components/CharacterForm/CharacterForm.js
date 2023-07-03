@@ -1,6 +1,6 @@
 import CharacterNameInput from "../CharacterNameInput/CharacterNameInput";
 import SpeciesSelect from "../SpeciesSelect/SpeciesSelect";
-import "./characterForm.css"
+import "./characterForm.scss"
 
 function CharacterForm({ searchName, searchSpecies, hadleLifting }) {
 

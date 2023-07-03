@@ -1,5 +1,5 @@
 import CharacterCards from "../CharacterCards/CharacterCards";
-import "./CharacterList.css"; 
+import "./CharacterList.scss"; 
 
 function CharacterList({charactersListadO}) {
     //console.log(charactersListadO)
