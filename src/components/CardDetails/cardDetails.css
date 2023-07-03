@@ -38,13 +38,7 @@ section {
     font-size: 20px;
     
   }
-  div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  
   .noExiste{ 
     font-size: 20px;
     color: #666666;
@@ -57,7 +51,7 @@ section {
     font-family:fantasy;
     color: #46379b;
     font-size: 20px;
-   margin-left: 80px;
+   
     
 
   }

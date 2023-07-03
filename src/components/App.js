@@ -1,4 +1,4 @@
-//import "../styles/App.scss";
+
 import '../styles/App.css';
 import { useEffect, useState } from "react";
 import fetchDataApi from "./services/Api";
@@ -18,11 +18,7 @@ function App() {
   const [charactersListado, setCharactersListado] = useState([]);
   const [searchName, setSearchName] = useState('');
   const [searchSpecies, setSearchSpecies] = useState('all');
-
-
-  ///localStorage.get ('CharactersData',[]) 
-  //if(localStorage.getItem('CharactersData')=== null ){
-  //  }
+  
 
 
   useEffect(() => {
@@ -62,7 +58,8 @@ function App() {
 
 
  /// routes  para cards
-const {pathname}= useLocation();
+
+ const {pathname}= useLocation();
 //console.log(pathname)
 const routeData = matchPath('/card/:cardId', pathname);
 //console.log(routeData);

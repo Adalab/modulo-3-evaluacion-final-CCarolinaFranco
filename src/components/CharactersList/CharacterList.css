@@ -6,6 +6,7 @@
 }
   .character-list-item {
     width: 150px; 
+    height: 300px;
     padding: 10px; 
     background-color: #c5c3c3; 
     border: 2px solid #444; 
@@ -13,4 +14,5 @@
   }
   .character-list-item img {
     width: 100%; 
+    align-items: center;
   }
