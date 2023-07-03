@@ -1,3 +1,6 @@
+import "./characterNameInput.css"
+
+
 function CharacterNameInput ({searchName, hadleLifting} ){
 
     return(

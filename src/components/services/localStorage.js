@@ -1,4 +1,4 @@
-// Fichero src/services/localStorage.js
+
 
 // Función que obtiene una propiedad del local storage
 // Si esta propiedad no existe porque es la primera vez que la usuaria entra en la página, la función devuelve el valor de defaultValue

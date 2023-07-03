@@ -1,12 +1,25 @@
-@media (min-width: 768px) {
-    .main {
-      display: grid;
-      grid-template-columns: 20rem 1fr;
-    }
-  }
+
+  
+  
   .header {
     position: relative;
-    border-bottom: solid 0.1875rem #313333;
     padding-bottom: 0.3125rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.80rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
   }
+  
+ 
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #46379b;
+    font-family: cursive;
+
+    
+    
+  }
+  

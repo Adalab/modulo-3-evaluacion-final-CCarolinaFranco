@@ -43,19 +43,7 @@ function App() {
     if (param1 === 'name') setSearchName(value)
     else if (param1 === 'species') setSearchSpecies(value)
 
-  }
-
-  //const handleSearchName = value => setSearchName(value)
-
-  //const handleSearchSpecies = value => setSearchName(value)
-
-  //console.log(ev)
-  //handleLiftingFilters ('name', ev.target.value)
-  //}}
-  //const handleSearchSpecies = (ev) => {
-  // setSearchName(ev.target.value)
-  // handleLiftingFilters('specie', ev.target.value)
-  //}
+  } 
 
 
   // filtros para species/name
@@ -71,7 +59,6 @@ function App() {
       }
     }
     );
-
 
 
  /// routes  para cards

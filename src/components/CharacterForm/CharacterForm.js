@@ -1,5 +1,6 @@
 import CharacterNameInput from "../CharacterNameInput/CharacterNameInput";
 import SpeciesSelect from "../SpeciesSelect/SpeciesSelect";
+import "./characterForm.css"
 
 function CharacterForm({ searchName, searchSpecies, hadleLifting }) {
 
@@ -11,22 +12,12 @@ function CharacterForm({ searchName, searchSpecies, hadleLifting }) {
                 searchName={searchName}
                 hadleLifting={hadleLifting}
             />
-
+            <h3>Filtrar por Especie:</h3>
             <SpeciesSelect
                 searchSpecies={searchSpecies}
                 hadleLifting={hadleLifting}
             />
-            {/*<label className="" htmlFor="">
-            Especie:
-            <select className="" name="" id="" 
-            value={searchSpecies} 
-            onChange={(env) => hadleLifting('species', env.target.value)}>
-                <option value="all">Todos</option>
-                <option value="Human">Humana</option>
-                <option value="Alien">Alien</option>
 
-            </select>
-        </label>*/}
 
         </form>
 
